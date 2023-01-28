@@ -19,7 +19,8 @@ const createToast = (id) => {
                             <i class="fa-solid ${icon}"></i>
                             <span>${text}</span>
                         </div>
-                        <i class="fa-solid fa-xmark" onclick="removeToast(this.parentElement)"></i>`;
+                        <i class="fa-solid fa-xmark" 
+                        onclick="removeToast(this.parentElement)"></i>`;
     //Append the Toast to the notifications ul                    
     notifications.appendChild(toast);
     //Setting a timer to remove Toast after 5s
